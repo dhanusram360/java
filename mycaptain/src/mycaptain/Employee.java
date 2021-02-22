@@ -1,5 +1,7 @@
 package mycaptain;
-public class Employee {
+
+
+class employe{
 	public String Name() {
 		String name ="Robert";
 		return name;
@@ -15,11 +17,11 @@ public class Employee {
 	public String address() {
 		String Address ="WallsStreet Sam 2000 68D- WallsStreet John 1999 26B- WallsStreet";
 		return Address;}
-	
+}
 
-
+public class Employee {
 public static void main(String[] args) {
-	Employee output = new Employee();
+	employe output = new employe();
 	System.out.println("Name Year of joining Address"+" "+output.Name()+" "+output.year()+" "+output.salary()+"-"+output.address());
-	
-}}
+	}
+}
